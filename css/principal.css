@@ -1,0 +1,159 @@
+main {
+  width: 100%;
+}
+
+.principal {
+  width: 100%;
+  height: 30%;
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.principal__titulo {
+  font-size: 82px;
+  font-weight: 600;
+  font-family: var(--font-principal);
+  letter-spacing: -10px;
+}
+
+.G {
+  color: var(--cor-azul);
+}
+
+.o {
+  color: var(--cor-vermelho);
+}
+
+.oo {
+  color: var(--cor-amarelo);
+}
+
+.g {
+  color: var(--cor-verde);
+}
+
+.l {
+  color: var(--cor-azul);
+}
+
+.e {
+  color: var(--cor-vermelho);
+}
+
+.container__input {
+  margin-top: 3rem;
+}
+
+.container__input input {
+  font-family: var(--font-principal);
+  font-size: 1rem;
+  color: var(--cor-cinza);
+  width: 55rem;
+  height: 3rem;
+  padding-left: 3rem;
+  border: 1.9px solid var(--cor-cinza);
+  border-radius: 6px;
+}
+
+.container__botoes {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.principal__botao {
+  font-family: var(--font-secundaria);
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: var(--cor-cinza-claro);
+  color: #3e3e3e;
+  padding: 1.5rem 5rem;
+  border-radius: 6px;
+}
+
+.principal__botao:hover {
+  transition: 0.5s;
+  background-color: #fff;
+  color: #000;
+}
+
+@media screen and (max-width: 830px) {
+  .container__input input {
+    font-family: var(--font-principal);
+    font-size: 0.1rem;
+    color: var(--cor-cinza);
+    width: 30rem;
+    height: 3rem;
+    padding-left: 3rem;
+    border: 1.9px solid var(--cor-cinza);
+    border-radius: 6px;
+  }
+
+  .container__botoes {
+    width: 80%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+  }
+
+  .principal__botao {
+    font-family: var(--font-secundaria);
+    font-weight: 600;
+    font-size: 0.2rem;
+    text-decoration: none;
+    background-color: var(--cor-cinza-claro);
+    color: #3e3e3e;
+    padding: 2rem 1rem;
+    border-radius: 6px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .principal__titulo {
+    font-size: 50px;
+    font-weight: 500;
+    font-family: var(--font-secundaria);
+    letter-spacing: -5px;
+  }
+
+  .container__input {
+    margin-top: 3rem;
+  }
+
+  .container__input input {
+    font-family: var(--font-principal);
+    font-size: 0.1rem;
+    color: var(--cor-cinza);
+    width: 20rem;
+    height: 3rem;
+    padding-left: 3rem;
+    border: 1.9px solid var(--cor-cinza);
+    border-radius: 6px;
+  }
+
+  .container__botoes {
+    width: 80%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+  }
+
+  .principal__botao {
+    font-family: var(--font-secundaria);
+    font-weight: 600;
+    font-size: 0.2rem;
+    text-decoration: none;
+    background-color: var(--cor-cinza-claro);
+    color: #3e3e3e;
+    padding: 1rem 1rem;
+    border-radius: 6px;
+  }
+}

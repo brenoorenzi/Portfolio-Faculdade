@@ -1,0 +1,51 @@
+.cabecalho {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.cabecalho div {
+  margin: 0 2rem;
+}
+
+.cabecalho_contato {
+  align-items: center;
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+}
+.cabecalho_botao {
+  background-color: #3ca1ff;
+  border-radius: 4px;
+  border: none;
+  padding: 0.9rem;
+  color: #ffffff;
+  font-family: var(--font-principal);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.cabecalho_contato a {
+  font-family: "Montserrat Alternates", serif;
+  font-size: 16px;
+  text-decoration: none;
+
+  cursor: pointer;
+  color: #3e3e3e;
+}
+.cabecalho__buton-img {
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (min-width: 840px) {
+  .cabecalho_botao {
+    padding: 1rem;
+  }
+
+  .cabecalho_contato {
+    gap: 50px;
+  }
+}
