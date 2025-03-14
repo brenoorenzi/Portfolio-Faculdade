@@ -9,6 +9,10 @@ main {
   width: 100%;
 }
 
+body {
+  background-color: #000;
+}
+
 .principal__link-input {
   width: 100%;
   margin: 2rem 0;
@@ -48,7 +52,7 @@ main {
   display: inline-block;
   text-decoration: none;
   font-family: var(--font-link);
-  color: var(--cor-azul);
+  color: #1E90FF;
   font-size: 1.2rem;
   width: 40%;
 }
@@ -130,18 +134,18 @@ main {
 
   .principal__conteudo h3 {
     font-family: var(--font-secundaria);
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .principal__conteudo h4 {
     color: var(--cor-cinza);
     font-family: var(--font-secundaria);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .principal__conteudo p {
     font-family: var(--font-secundaria);
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 }
 

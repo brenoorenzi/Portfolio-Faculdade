@@ -15,14 +15,35 @@
 :root {
   --cor-cinza: #878181;
   --cor-cinza-claro: #b6b6b6;
-  --cor-azul: #2488e7;
-  --cor-vermelho: #db2e2e;
-  --cor-amarelo: #eded20;
-  --cor-verde: #3fbc2f;
+  --cor-azul: #d0e8ff;
+  --cor-vermelho: #a3d1ff;
+  --cor-amarelo: #73b3ff;
+  --cor-verde: #4682ff;
+  --cor-azulão: #102a4c;
   --font-principal: "Montserrat Alternates", serif;
   --font-secundaria: "Kodchasan", sans-serif;
   --font-link: "Noto Sans", sans-serif;
 }
+
+@keyframes animacao {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+main {
+    animation: animacao 1s ease-in-out;
+}
+
+
+body {
+    background-color: snow;
+  }
+
 
 /*PRINCIPAL*/
 /*

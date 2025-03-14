@@ -1,0 +1,53 @@
+.principal__proparoxitona{
+    height: 50vh;
+    width: 80%;
+    margin: 5rem auto;
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgba( 60,161,255, .3);        
+    border-radius: 1rem;
+    font-family: var(--font-secundaria);
+}
+
+.proparoxitona__imagem{
+    display: none;
+    
+}
+
+.proparoxitona__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proparoxitona__conteudo h2 {
+    padding-bottom: 2rem;
+}
+
+.proparoxitona__conteudo ul  {
+    margin-left: 5rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    column-gap: .8rem;
+    row-gap: 1.2rem;
+}
+
+.proparoxitona__conteudo ul li{
+
+    text-align: center;
+    width: 40%;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 830px) {
+    .proparoxitona__imagem {
+        display: block;
+        border-radius: 1rem;
+        padding-right: 3rem;
+    }
+}

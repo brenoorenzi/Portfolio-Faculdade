@@ -10,6 +10,11 @@
   margin: 0 2rem;
 }
 
+.cabecalho_app {
+  width: 80%;
+  cursor: pointer;
+}
+
 .cabecalho_contato {
   align-items: center;
   display: flex;

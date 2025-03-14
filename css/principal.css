@@ -19,23 +19,23 @@ main {
   letter-spacing: -10px;
 }
 
-.G {
+.A {
   color: var(--cor-azul);
 }
 
-.o {
+.r {
   color: var(--cor-vermelho);
 }
 
-.oo {
+.k {
   color: var(--cor-amarelo);
 }
 
-.g {
+.a {
   color: var(--cor-verde);
 }
 
-.l {
+.n {
   color: var(--cor-azul);
 }
 
@@ -71,15 +71,17 @@ main {
   font-weight: 600;
   font-size: 1rem;
   text-decoration: none;
-  background-color: var(--cor-cinza-claro);
+  background-color: var(--cor-azul);
+  color: #BEBEBE;
   color: #3e3e3e;
   padding: 1.5rem 5rem;
   border-radius: 6px;
+  
 }
 
 .principal__botao:hover {
   transition: 0.5s;
-  background-color: #fff;
+  background-color: #FFF;
   color: #000;
 }
 
