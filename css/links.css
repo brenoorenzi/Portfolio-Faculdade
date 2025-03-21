@@ -50,8 +50,8 @@ main {
   text-decoration: none;
   font-family: var(--font-link);
   color: #1E90FF;
-  font-size: 1.2rem;
-  width: 40%;
+  font-size: 1.5rem;
+
 }
 
 .links__conteudo p {
@@ -118,7 +118,7 @@ main {
 
   .links__conteudo a {
     font-size: 1.8rem;
-    width: 50%;
+    width: 80%;
   }
 
   .links__conteudo p {
